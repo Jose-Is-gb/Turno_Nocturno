@@ -1,0 +1,69 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MenuManager : MonoBehaviour
+{
+    [Header("Paneles del Menú")]
+    public GameObject panelBotones;
+    public GameObject panelCreditos;
+
+    [Header("Efectos de Sonido")]
+    [Tooltip("Arrastra aquí tu sonido para cuando el ratón pasa por encima")]
+    public AudioClip sonidoHover;
+    [Tooltip("Arrastra aquí el objeto SFX_Source que acabas de crear")]
+    public AudioSource sfxSource;
+
+    void Start()
+    {
+        if (panelBotones != null) panelBotones.SetActive(true);
+        if (panelCreditos != null) panelCreditos.SetActive(false);
+    }
+
+    // ----------------------------------------------------
+    // NUEVA FUNCIÓN: Para cuando el ratón toca el botón
+    // ----------------------------------------------------
+    public void ReproducirSonidoHover()
+    {
+        // Verifica que pusimos el sonido y el reproductor en el Inspector para evitar errores
+        if (sonidoHover != null && sfxSource != null)
+        {
+            // Reproduce el sonido una vez
+            sfxSource.PlayOneShot(sonidoHover);
+        }
+    }
+
+    // Lógica para COMENZAR
+    public void BotonComenzar()
+    {
+        SceneManager.LoadScene("INTRO");
+    }
+
+    // Lógica para CONTINUAR
+    public void BotonContinuar()
+    {
+        SceneManager.LoadScene("INTRO");
+    }
+
+    // Lógica para CRÉDITOS
+    public void BotonAbrirCreditos()
+    {
+        panelBotones.SetActive(false);
+        panelCreditos.SetActive(true);
+    }
+
+    public void BotonCerrarCreditos()
+    {
+        panelCreditos.SetActive(false);
+        panelBotones.SetActive(true);
+    }
+
+    // Lógica para SALIR
+    public void BotonSalir()
+    {
+        Application.Quit();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+    }
+}
