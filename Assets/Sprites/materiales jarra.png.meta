@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: a47e90ea33695e84a833a45a8b6cb1d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2978126345229899837
+    second: materiales jarra_0
+  - first:
+      213: -1725118772182161903
+    second: materiales jarra_1
+  - first:
+      213: 6191483314092559650
+    second: materiales jarra_2
+  - first:
+      213: -4875275865678447084
+    second: materiales jarra_3
+  - first:
+      213: 531238305703686209
+    second: materiales jarra_4
+  - first:
+      213: -7721391724274966476
+    second: materiales jarra_5
+  - first:
+      213: 4220407013437431327
+    second: materiales jarra_6
+  - first:
+      213: 8902522791160676414
+    second: materiales jarra_7
+  - first:
+      213: 645477541709869618
+    second: materiales jarra_8
+  - first:
+      213: 1042845948266194073
+    second: materiales jarra_9
+  - first:
+      213: -4869629905471083132
+    second: materiales jarra_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: materiales jarra_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 636
+        width: 390
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3819a7d12e645920800000000000000
+      internalID: 2978126345229899837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_1
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 572
+        width: 318
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11669b4ed952f08e0800000000000000
+      internalID: -1725118772182161903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_2
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 636
+        width: 397
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dce3135419ce550800000000000000
+      internalID: 6191483314092559650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 359
+        width: 445
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e73343e6a875cb0800000000000000
+      internalID: -4875275865678447084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_4
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 359
+        width: 358
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1407c86ac665f5700800000000000000
+      internalID: 531238305703686209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_5
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 356
+        width: 451
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43023fee22b18d490800000000000000
+      internalID: -7721391724274966476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 78
+        width: 140
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e518b61d5e19a30800000000000000
+      internalID: 4220407013437431327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_7
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 75
+        width: 151
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3083fb9f4d1c8b70800000000000000
+      internalID: 8902522791160676414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_8
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 78
+        width: 164
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232fb10876235f800800000000000000
+      internalID: 645477541709869618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_9
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 103
+        width: 207
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994acdd5ddee87e00800000000000000
+      internalID: 1042845948266194073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materiales jarra_10
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 73
+        width: 86
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48de6c0c6699b6cb0800000000000000
+      internalID: -4869629905471083132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      materiales jarra_0: 2978126345229899837
+      materiales jarra_1: -1725118772182161903
+      materiales jarra_10: -4869629905471083132
+      materiales jarra_2: 6191483314092559650
+      materiales jarra_3: -4875275865678447084
+      materiales jarra_4: 531238305703686209
+      materiales jarra_5: -7721391724274966476
+      materiales jarra_6: 4220407013437431327
+      materiales jarra_7: 8902522791160676414
+      materiales jarra_8: 645477541709869618
+      materiales jarra_9: 1042845948266194073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

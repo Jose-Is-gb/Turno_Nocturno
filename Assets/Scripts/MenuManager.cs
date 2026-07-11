@@ -35,13 +35,13 @@ public class MenuManager : MonoBehaviour
     // Lógica para COMENZAR
     public void BotonComenzar()
     {
-        SceneManager.LoadScene("INTRO");
+        SceneManager.LoadScene("INTRO 00");
     }
 
     // Lógica para CONTINUAR
     public void BotonContinuar()
     {
-        SceneManager.LoadScene("INTRO");
+        SceneManager.LoadScene("INTRO 00");
     }
 
     // Lógica para CRÉDITOS
