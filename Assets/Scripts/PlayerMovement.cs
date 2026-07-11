@@ -13,6 +13,17 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        
+        // Configuración automática: le pone la etiqueta "Player" para que funcionen las interacciones
+        gameObject.tag = "Player";
+
+        // Configuración automática: asegura que el personaje tenga un cuerpo físico (Collider)
+        Collider2D col = GetComponent<Collider2D>();
+        if (col == null)
+        {
+            gameObject.AddComponent<BoxCollider2D>();
+            Debug.Log("¡Cuerpo físico (BoxCollider2D) añadido automáticamente al jugador!");
+        }
     }
 
     void Update()
