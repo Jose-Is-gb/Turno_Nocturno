@@ -41,7 +41,23 @@ public class MenuManager : MonoBehaviour
     // Lógica para CONTINUAR
     public void BotonContinuar()
     {
-        SceneManager.LoadScene("INTRO 00");
+        // Revisamos si hay una partida guardada previamente (por el menú de pausa)
+        if (PlayerPrefs.HasKey("SavedScene"))
+        {
+            // Le avisamos al juego que estamos cargando desde una partida guardada
+            PlayerPrefs.SetInt("LoadFromSave", 1);
+
+            // Obtenemos el nombre de la escena guardada
+            string escenaGuardada = PlayerPrefs.GetString("SavedScene");
+            Debug.Log("Cargando partida guardada en: " + escenaGuardada);
+            SceneManager.LoadScene(escenaGuardada);
+        }
+        else
+        {
+            // Si no hay partida guardada, empezamos desde el principio
+            Debug.Log("No hay partida guardada, empezando desde el inicio.");
+            SceneManager.LoadScene("INTRO 00");
+        }
     }
 
     // Lógica para CRÉDITOS

@@ -24,6 +24,41 @@ public class PlayerMovement : MonoBehaviour
             gameObject.AddComponent<BoxCollider2D>();
             Debug.Log("¡Cuerpo físico (BoxCollider2D) añadido automáticamente al jugador!");
         }
+
+        // --- CARGAR POSICIÓN (Guardado de Menú) ---
+        // Si el menú nos dice que venimos de presionar "Continuar"
+        if (PlayerPrefs.GetInt("LoadFromSave", 0) == 1)
+        {
+            // Obtenemos las coordenadas X e Y guardadas (o usamos las actuales si hay error)
+            float savedX = PlayerPrefs.GetFloat("SavedPosX", transform.position.x);
+            float savedY = PlayerPrefs.GetFloat("SavedPosY", transform.position.y);
+            
+            // Movemos al jugador a esa posición
+            transform.position = new Vector2(savedX, savedY);
+            
+            // Apagamos el "switch" para que no nos teletransporte la próxima vez que cambiemos de escena por una puerta
+            PlayerPrefs.SetInt("LoadFromSave", 0);
+            
+            Debug.Log("¡Jugador posicionado en el punto de guardado!");
+        }
+        else
+        {
+            // --- CARGAR POSICIÓN (Cambio de Escena normal por Puerta) ---
+            string spawnName = PlayerPrefs.GetString("TargetSpawnPoint", "");
+            if (!string.IsNullOrEmpty(spawnName))
+            {
+                // Buscamos si hay algún objeto en esta escena que se llame exactamente como pedimos
+                GameObject spawnPoint = GameObject.Find(spawnName);
+                if (spawnPoint != null)
+                {
+                    transform.position = spawnPoint.transform.position;
+                    Debug.Log("Jugador teletransportado a la puerta: " + spawnName);
+                }
+                
+                // Borramos el dato para no aparecer ahí por accidente si reiniciamos
+                PlayerPrefs.SetString("TargetSpawnPoint", "");
+            }
+        }
     }
 
     void Update()

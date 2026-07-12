@@ -5197,6 +5197,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &359688838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359688839}
+  m_Layer: 0
+  m_Name: salida_calle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &359688839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359688838}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.47, y: -13.77, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &392045433
 GameObject:
   m_ObjectHideFlags: 0
@@ -16841,6 +16872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChangeSceneOnTrigger
   sceneName: INTRO-02
   targetTag: 
+  targetSpawnPoint: 
 --- !u!61 &1410834067
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22186,6 +22218,7 @@ GameObject:
   - component: {fileID: 1686760284}
   - component: {fileID: 1686760286}
   - component: {fileID: 1686760287}
+  - component: {fileID: 1686760288}
   m_Layer: 0
   m_Name: 1002106730_0
   m_TagString: Player
@@ -22408,6 +22441,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
+--- !u!114 &1686760288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686760281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a97df08f520475e4a84c912ac97af1c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PauseMenu
 --- !u!1 &1720033957
 GameObject:
   m_ObjectHideFlags: 0
@@ -28608,3 +28653,4 @@ SceneRoots:
   - {fileID: 1579079695}
   - {fileID: 1995598687}
   - {fileID: 1650475593}
+  - {fileID: 359688839}

@@ -139,6 +139,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/INTRO-04.unity
     guid: 607c21ce81f8a094ebefdd9201fab1d5
+  - enabled: 1
+    path: Assets/Scenes/INTRO-05.unity
+    guid: d9856eddb58251049b95786e6e39fbdf
+  - enabled: 1
+    path: Assets/Scenes/INTRO-06.unity
+    guid: ef5aee160a86e9640bb5f6e47c43780c
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
