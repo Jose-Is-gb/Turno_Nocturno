@@ -424,9 +424,9 @@ TextureImporter:
       name: "\xF1oa_9"
       rect:
         serializedVersion: 2
-        x: 1086
+        x: 1080
         y: 592
-        width: 327
+        width: 176
         height: 176
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
