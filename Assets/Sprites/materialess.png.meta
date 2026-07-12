@@ -124,10 +124,10 @@ TextureImporter:
       name: materialess_0
       rect:
         serializedVersion: 2
-        x: 202
-        y: 661
-        width: 144
-        height: 346
+        x: 201
+        y: 665
+        width: 143
+        height: 185
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,7 +151,7 @@ TextureImporter:
         width: 514
         height: 306
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: materialess_2
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 574
-        width: 159
-        height: 433
+        x: 1181
+        y: 754
+        width: 154
+        height: 250
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,28 +187,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: materialess_3
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 100
-        width: 246
-        height: 497
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa14e2f2bfdc1c4f0800000000000000
-      internalID: -810139979237932630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: materialess_4
       rect:
         serializedVersion: 2
@@ -217,7 +195,7 @@ TextureImporter:
         width: 317
         height: 222
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +212,12 @@ TextureImporter:
       name: materialess_5
       rect:
         serializedVersion: 2
-        x: 1137
-        y: 99
-        width: 233
-        height: 438
+        x: 1141
+        y: 104
+        width: 224
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,7 +239,7 @@ TextureImporter:
         width: 141
         height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,7 +261,7 @@ TextureImporter:
         width: 142
         height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -296,11 +274,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Vitrina_Superior
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 344
+        width: 249
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537b022d0bc27cb4ab44a9856d2c26b4
+      internalID: -1597707747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vitrins_Inferior
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 108
+        width: 246
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b83586fca652c4483c63dbc817d8a1
+      internalID: 1133039987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialess_3
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 323
+        width: 223
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a46a47626260243abdf9c6b311e4ea
+      internalID: -810139979237932630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialess_8
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 576
+        width: 154
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822238565be5b94458cc68543f5b5987
+      internalID: -1919028961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialess_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 850
+        width: 143
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266dc37d8b803cf49adb80788452236c
+      internalID: -565037153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ca1263aa96286df478b4835ffa1fff7f
     internalID: 0
     vertices: []
     indices: 
@@ -310,6 +398,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Vitrina_Superior: -1597707747
+      Vitrins_Inferior: 1133039987
       materialess_0: 2666935236623460773
       materialess_1: -8515052055273845820
       materialess_2: -6185083098789755993
@@ -318,6 +408,8 @@ TextureImporter:
       materialess_5: 4127481618618870718
       materialess_6: 753500541449947587
       materialess_7: 6394008186975649512
+      materialess_8: -1919028961
+      materialess_9: -565037153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
