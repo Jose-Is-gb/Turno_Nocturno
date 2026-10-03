@@ -138,6 +138,3 @@ Desarrollado por:
 - **José Geronimo** — [Jose-Is-gb](https://github.com/Jose-Is-gb)
 - **Bryan Mercado**
 
----
-
-[Ver el repositorio en GitHub](https://github.com/Jose-Is-gb/Turno_Nocturno)
