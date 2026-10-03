@@ -121,7 +121,7 @@ También puedes reemplazarlas por enlaces a imágenes subidas directamente a Git
 
 ### Menú principal
 
-<!-- ![Menú principal](MDT1.png) -->
+![Menú principal](MDT1.png)
 
 ### Exploración del museo
 
