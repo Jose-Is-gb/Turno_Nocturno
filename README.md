@@ -125,11 +125,11 @@ También puedes reemplazarlas por enlaces a imágenes subidas directamente a Git
 
 ### Exploración del museo
 
-<!-- ![Exploración del museo](MDT2.png) -->
-<!-- ![Lectura de una nota](MDT3.png) -->
-<!-- ![Exploración del museo](MDT4.png) -->
-<!-- ![Exploración del museo](MDT5.png) -->
-<!-- ![Exploración del museo](MDT6.png) -->
+![Exploración del museo](MDT2.png)
+![Lectura de una nota](MDT3.png)
+![Exploración del museo](MDT4.png)
+![Exploración del museo](MDT5.png)
+![Exploración del museo](MDT6.png)
 
 ## Créditos
 
