@@ -8,13 +8,13 @@ Turno Nocturno es un videojuego 2D de exploración y terror desarrollado en **Un
 ![Portada de Turno Nocturno](docs/images/portada.png)
 -->
 
-## 🎮 Sobre el juego
+## Sobre el juego
 
 La experiencia gira en torno al inicio de un turno de vigilancia en un museo. Explorar el entorno, prestar atención a los mensajes y encontrar una llave permite avanzar entre sus espacios.
 
 El proyecto combina movimiento en dos dimensiones, narrativa ambiental e interacciones sencillas para construir una atmósfera de misterio.
 
-## ✨ Características
+## Características
 
 - **Exploración 2D:** desplazamiento en cuatro direcciones con animaciones del personaje.
 - **Interacción con objetos:** recogida de llaves y apertura de puertas bloqueadas.
@@ -28,7 +28,7 @@ El proyecto combina movimiento en dos dimensiones, narrativa ambiental e interac
 
 > El guardado actual conserva la escena y las coordenadas del personaje. No guarda el estado completo de los objetos ni la posesión de la llave entre sesiones.
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 | Tecnología | Uso |
 | --- | --- |
@@ -41,7 +41,7 @@ El proyecto combina movimiento en dos dimensiones, narrativa ambiental e interac
 | PlayerPrefs | Guardado local de escena y posición |
 | Git y Git LFS | Control de versiones y gestión de recursos binarios |
 
-## ⌨️ Controles
+## Controles
 
 | Tecla o acción | Función |
 | --- | --- |
@@ -83,7 +83,7 @@ El proyecto combina movimiento en dos dimensiones, narrativa ambiental e interac
 
 Durante la partida, pulsa `Esc` y selecciona **Guardar Partida**. Después, utiliza **Continuar** en el menú principal para cargar la escena y la posición guardadas. Si no existe un guardado, esta opción inicia la escena `INTRO 00`.
 
-## 📂 Organización del proyecto
+## Organización del proyecto
 
 | Ruta | Contenido |
 | --- | --- |
@@ -121,21 +121,17 @@ También puedes reemplazarlas por enlaces a imágenes subidas directamente a Git
 
 ### Menú principal
 
-<!-- ![Menú principal](docs/images/menu-principal.png) -->
+<!-- ![Menú principal](MDT1.png) -->
 
 ### Exploración del museo
 
-<!-- ![Exploración del museo](docs/images/exploracion.png) -->
+<!-- ![Exploración del museo](MDT2.png) -->
+<!-- ![Lectura de una nota](MDT3.png) -->
+<!-- ![Exploración del museo](MDT4.png) -->
+<!-- ![Exploración del museo](MDT5.png) -->
+<!-- ![Exploración del museo](MDT6.png) -->
 
-### Interacción y narrativa
-
-<!-- ![Lectura de una nota](docs/images/nota-interactiva.png) -->
-
-### Menú de pausa
-
-<!-- ![Menú de pausa](docs/images/menu-pausa.png) -->
-
-## 👥 Créditos
+## Créditos
 
 Desarrollado por:
 
